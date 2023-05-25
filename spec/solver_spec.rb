@@ -1,4 +1,4 @@
-# require './solver.rb'
+require './solver'
 
 describe Solver do
   operation1 = Solver.new
@@ -8,12 +8,13 @@ describe Solver do
   end
 
   describe "#factorial" do
+    operation1 = Solver.new
     it "Should return 1 when the number is 0" do
-      expect(opreation1.factorial(0)).to eql(1)
+      expect(operation1.factorial(0)).to eql(1)
     end
 
     it "Should raise an error if the number is negative" do
-      expect(operation1.factorial(-1)).to raise_error(ArgumentError)
+      expect{operation1.factorial(-1)}.to raise_error(ArgumentError)
     end
 
     it "Should return 24 when the number is 4" do
