@@ -45,7 +45,7 @@ describe Solver do
       expect(operation1.fizzbuzz(15)).to eql("FizzBuzz")
     end 
     it "Should return a stringified number when the number is not divisible by 3 or 5" do
-      
+      expect(operation1.fizzbuzz(7)).to eql("7")
     end
   end
 end
