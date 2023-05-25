@@ -23,43 +23,22 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 OOP School Library <a name="about-project"></a>
+# 📖 TDD Project <a name="about-project"></a>
 
-**OOP School Library** is a Ruby program, using OOP Principles. The application lets you:
+**TDD Project** is a Ruby program, created with the TDD paradigm. It implements the tests before implementing the actual code. 
 
-- Add a person
-- Add a Student
-- Add a teacher
-- Add a classroom
-- Add a Book
-- Add a Rental
+- Calculates the factorial of a given number
+- Returns a reversed string of a given string
+- Implement FizzBuzz algorithm
 
-With all these functionallities, the user will be able to Add data and save records of who borroewd a given book and when
 ## 🛠 Built With <a name="built-with"></a>
-
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
   <summary>Client</summary>
   <ul>
-   <li>N/A</li>
-
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li>Ruby</li>
-
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li></li>
+   <li>Pure ruby</li>
   </ul>
 </details>
 
@@ -67,9 +46,9 @@ With all these functionallities, the user will be able to Add data and save reco
 
 ### Key Features <a name="key-features"></a>
 
-- Add Students, teachers or books
-- Save records of who borrowed a given book and when
-- List data
+- Calculates the factorial of a given number
+- Returns a reversed string of a given string
+- Implement FizzBuzz algorithm
 
 
 <p align="right"><a href="#readme-top">👆</a></p>
@@ -93,7 +72,7 @@ To run the project locally, follow these steps.
 In order to run this project you need to:
 
 - Install [Git](https://git-scm.com/)
-- Install [Node](https://nodejs.org/en/)
+- Install [Ruby](https://www.ruby-lang.org/es/downloads/)
 - Install a code editor, I suggest [VsCode](https://code.visualstudio.com/)
 
 ### Setup
@@ -101,28 +80,20 @@ In order to run this project you need to:
 Clone the repo into your local machine:
 
 ```bash
-git clone git@github.com:jaimevillegas/vet-clinic-database.git
+git clone https://github.com/jaimevillegas/tdd-project.git
 ```
 
 Install the dependencies using npm:
 ```bash
-npm install
+bundle install
 ```
 
 ### Usage
 
 To start the development server run
 ```bash
-npm run start
+irb solver.rb
 ```
-- this command will start the development server on `localhost:8080` address
-
-To create and optimized production build run
-```bash
-npm run build
-```
-- this command will create a bunduled chunks of code inside `dist/` folder
-
 
 <p align="right"><a href="#readme-top">👆</a></p>
 
@@ -137,15 +108,21 @@ npm run build
 - LinkedIn: [Villegas0296](https://www.linkedin.com/in/villegas0296/)
 - Medium: [@jaimevillegas296](https://medium.com/@jaimevillegas296)
 
+👤 **David Espino**
+
+- GitHub: [@DavidEspinoG](https://github.com/DavidEspinoG)
+- Twitter: [@DavidEspinoG](https://twitter.com/DavidEspinoG)
+- LinkedIn: [davidespinog](https://linkedin.com/in/davidespinog)
+
 <p align="right"><a href="#readme-top">👆</a></p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Add more classes
-- Add more data
-- Add frontend code
+- Add more methods
+- Add more tests
+- Implement UI
 
 <p align="right"><a href="#readme-top">👆</a></p>
 
